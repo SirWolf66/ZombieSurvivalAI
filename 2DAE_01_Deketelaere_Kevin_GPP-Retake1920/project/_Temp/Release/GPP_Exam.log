@@ -1,0 +1,18 @@
+﻿  stdafx.cpp
+  BaseAgent.cpp
+  SteeringAgent.cpp
+  BehaviorTreeExtended.cpp
+  ZombieSurvivalBehaviorTree.cpp
+  HelperFunctions.cpp
+  Plugin.cpp
+  SteeringBehaviors.cpp
+  ZombieSurvivalAI.cpp
+  Generating Code...
+  EBehaviorTree.cpp
+  GPP_PluginBase.lib(IBaseInterface.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     Creating library _Temp\Release\GPP_Plugin.lib and object _Temp\Release\GPP_Plugin.exp
+  Generating code
+  Finished generating code
+GPP_PluginBase.lib(IBaseInterface.obj) : warning LNK4099: PDB 'GPP_Framework_PluginBase.pdb' was not found with 'GPP_PluginBase.lib(IBaseInterface.obj)' or at 'C:\Users\kevin\Desktop\Gameplay programming\_Retake\GPP_ExamProject\project\_Temp\Release\GPP_Framework_PluginBase.pdb'; linking object as if no debug info
+GPP_PluginBase.lib(stdafx.obj) : warning LNK4099: PDB 'GPP_Framework_PluginBase.pdb' was not found with 'GPP_PluginBase.lib(stdafx.obj)' or at 'C:\Users\kevin\Desktop\Gameplay programming\_Retake\GPP_ExamProject\project\_Temp\Release\GPP_Framework_PluginBase.pdb'; linking object as if no debug info
+  GPP_Exam.vcxproj -> C:\Users\kevin\Desktop\Gameplay programming\_Retake\GPP_ExamProject\project\..\_DEMO_RELEASE\GPP_Plugin.dll

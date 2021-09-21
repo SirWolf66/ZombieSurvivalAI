@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Plugin.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="_EliteFrameWork\EliteAI\EliteBehaviorTree\EBehaviorTree.cpp">
+      <Filter>_EliteFraneWork\EliteAI\EliteBehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Steering\SteeringBehaviors.cpp">
+      <Filter>Steering</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent\BaseAgent.cpp">
+      <Filter>Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent\SteeringAgent.cpp">
+      <Filter>Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperFunctions.cpp" />
+    <ClCompile Include="ZombieSurvivalAI.cpp" />
+    <ClCompile Include="BehaviorTree\ZombieSurvivalBehaviorTree.cpp">
+      <Filter>Decision Making\BehaviorTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviorTreeExtended.cpp">
+      <Filter>Decision Making\BehaviorTree\BehaviorTreeExtended</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Plugin.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="_EliteFrameWork\EliteAI\EliteBehaviorTree\EBehaviorTree.h">
+      <Filter>_EliteFraneWork\EliteAI\EliteBehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="_EliteFrameWork\EliteAI\EliteBehaviorTree\EBlackboard.h">
+      <Filter>_EliteFraneWork\EliteAI\EliteBehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="_EliteFrameWork\EliteAI\EliteBehaviorTree\EliteUtilities.h">
+      <Filter>_EliteFraneWork\EliteAI\EliteBehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering\SteeringBehaviors.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="Steering\SteeringHelpers.h">
+      <Filter>Steering</Filter>
+    </ClInclude>
+    <ClInclude Include="PluginStructsExpanded.h" />
+    <ClInclude Include="Structs.h" />
+    <ClInclude Include="Agent\BaseAgent.h">
+      <Filter>Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent\SteeringAgent.h">
+      <Filter>Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h" />
+    <ClInclude Include="BehaviorTree\Behaviors.h">
+      <Filter>Decision Making\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieSurvivalAI.h" />
+    <ClInclude Include="BehaviorTree\ZombieSurvivalBehaviorTree.h">
+      <Filter>Decision Making\BehaviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorTreeExtended.h">
+      <Filter>Decision Making\BehaviorTree\BehaviorTreeExtended</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_EliteFraneWork">
+      <UniqueIdentifier>{f9510e29-624d-4aad-9a0e-7d9b4e2f96ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_EliteFraneWork\EliteAI">
+      <UniqueIdentifier>{cd9bdc2d-3240-462c-bde0-2c65fb5dafa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_EliteFraneWork\EliteAI\EliteBehaviorTree">
+      <UniqueIdentifier>{5907e2c5-98ba-492e-b858-f4db7f85af42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Steering">
+      <UniqueIdentifier>{1cbaf0c3-984d-4eac-886a-1105e78ee7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decision Making">
+      <UniqueIdentifier>{aaa2b424-2ff6-4b2f-9bc8-38db3614e072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Agents">
+      <UniqueIdentifier>{1e23dfcf-dd06-48b4-a838-16e2ef122558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decision Making\BehaviorTree">
+      <UniqueIdentifier>{7df3e9fc-37a3-4739-b3e1-6a90051d79a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decision Making\BehaviorTree\BehaviorTreeExtended">
+      <UniqueIdentifier>{0ff5f49a-d6d8-4e69-af7f-5fc28d4b1a29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
